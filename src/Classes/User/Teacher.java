@@ -1,11 +1,11 @@
 package Classes.User;
 
 public class Teacher extends User {
-    private int semester;
+    private String department;
 
     //Constructor
-    public Teacher(String name, String email, int semester) {
+    public Teacher(String name, String email, String department) {
         super(name, email);
-        this.semester = semester;
+        this.department = department;
     }
 }
